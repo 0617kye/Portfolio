@@ -3,13 +3,6 @@ body {
     display:flex;
 }
 
-#main_container {
-    width: 100%;
-    height: 100%;
-    margin: 0px auto;
-    border: 68px solid #CEEBF0;
-
-    }
 
 #header{
  width: 100%;
