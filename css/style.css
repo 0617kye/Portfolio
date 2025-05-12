@@ -4,6 +4,17 @@ body {
     padding: 0;
     background-color: white;
     color: #333;
+    display: flex;
+  }
+
+  #main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border : 1px solid #ccc;
+    width: 2024px;
+    height: 5000px;
   }
 
   #green_box {
@@ -11,7 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: 956px;
-    max-height: 239px;
+    max-height: 220px;
     margin: 60px auto 30px;
     padding: 0 20px;
     flex-wrap: wrap;
@@ -19,8 +30,9 @@ body {
   }
   
   #red_box {
-    flex: 1;
+    flex: 4;
     min-width: 600px;
+    height: 345px;
     border: 1px solid red;
   }
   
@@ -29,35 +41,33 @@ body {
     padding: 60px 40px;
     border-radius: 40px;
     max-width: 1002px;
-    max-height: 195px;
-    margin: 60px auto;
-    text-align: center;
+    height: 135px;
+    margin: 0px auto;
+    text-align: center
+  
   }
 
  
-  #header {
-    background-color: #d2f2f6;
-    padding: 60px 0;
-    text-align: center;
-  }
+  
   
   #about_me {
     max-width: 800px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 40px;
   }
   
   .title-top {
     font-size: 25px;
-    color: #007b8f;
+    color: #008796;
     margin: 8px;
    font-weight: 10;
   }
   
   #about_me h1 {
-    font-size: 60px;
+    font-size: 64px;
     font-weight: bold;
-    color: #00a8c6;
-    margin: 10px 0 20px;
+    color: #16BECF;
+    margin: 14px 0 20px;
   }
   
   #bio {
@@ -66,23 +76,25 @@ body {
     color: #333;
     line-height: 1.6;
     max-width: 750px;
-    margin: 30px auto 60px;
+    margin: 95px auto 60px;
     text-align: center;
   }
 
   b {
     font-weight:900;
+    
   }
 
 
 /* 4 boxes */
 #info_box_group {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 37px;
+    flex-wrap: nowrap;
     max-width: 1000px;
-    margin: 40px auto 60px;
+    margin: 120px auto 60px;
+  
   }
   
   /* each box */
@@ -95,6 +107,7 @@ body {
     border-radius: 20px;
     width: 180px;
     text-align: center;
+
   }
   
 
@@ -114,18 +127,19 @@ body {
   }
   
   #nav_links a {
-    color: white;
+    color: #16BECF;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 6px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
+  
   }
   
   
   
   #about_me_contents {
     max-width: 1000px;
-    margin: 60px auto;
+    margin: 50px auto;
     padding: 0 20px;
 
   }
@@ -134,15 +148,17 @@ body {
   #language_section,
   #education_section,
   #skills_section {
-    margin-bottom: 60px;
+    margin-bottom: 300px;
+    margin-top: 300px;
+    padding: 0 20px;
     text-align: center;
   }
   
   #language_title,
   #education_title,
   #skills_title {
-    font-size: 28px;
-    color: #00a8c6;
+    font-size: 37px;
+    color: #16BECF;
     margin-bottom: 20px;
   }
   
