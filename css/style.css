@@ -1,189 +1,163 @@
 body {
-    font-family: Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: #333;
-    display: flex;
-  }
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333;
+}
 
-  #main_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border : 1px solid #ccc;
-    width: 2024px;
-    height: 5000px;
-  }
+#main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
 
-  #green_box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 956px;
-    max-height: 220px;
-    margin: 60px auto 30px;
-    padding: 0 20px;
-    flex-wrap: wrap;
-    border: 1px solid green;
-  }
-  
-  #red_box {
-    flex: 4;
-    min-width: 600px;
-    height: 345px;
-    border: 1px solid red;
-  }
-  
-  #header_box {
-    background-color: #d2f2f6;
-    padding: 60px 40px;
-    border-radius: 40px;
-    max-width: 1002px;
-    height: 135px;
-    margin: 0px auto;
-    text-align: center
-  
-  }
+/* 말풍선 영역 */
+#green_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 940px;
+  margin-top: 60px;
+  border: solid 1px green;
+}
 
- 
-  
-  
-  #about_me {
-    max-width: 800px;
-    /* margin: 0 auto; */
-    margin-left: 40px;
-  }
-  
-  .title-top {
-    font-size: 25px;
-    color: #008796;
-    margin: 8px;
-   font-weight: 10;
-  }
-  
-  #about_me h1 {
-    font-size: 64px;
-    font-weight: bold;
-    color: #16BECF;
-    margin: 14px 0 20px;
-  }
-  
-  #bio {
-    font-size: 14px;
-    font-weight: 400;
-    color: #333;
-    line-height: 1.6;
-    max-width: 750px;
-    margin: 95px auto 60px;
-    text-align: center;
-  }
+#red_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 690px;
+  border: solid 1px red;
 
-  b {
-    font-weight:900;
-    
-  }
+}
+
+#blue_box {
+  background-color: #d2f2f6;
+  padding: 50px 30px;
+  border-radius: 40px;
+  text-align: center;
+  width: 590px;
+  border: solid 1px black;
+
+}
 
 
-/* 4 boxes */
+/* #header_box {
+  background-color: #d2f2f6;
+  padding: 60px 40px;
+  border-radius: 40px;
+  text-align: center;
+  border: solid 1px black;
+
+} */
+
+#about_me {
+  background-color: #d2f2f6;
+  max-width: 690px;
+  height: 195px;
+  margin: 0 auto;
+  border: solid 1px black;
+
+}
+
+.title-top {
+  font-size: 25px;
+  color: #008796;
+  margin: 8px;
+  font-weight: 10;
+}
+
+#about_me h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #16BECF;
+  margin: 14px 0 20px;
+}
+
+#bio_box {
+  background-color: white;
+  padding: 37px;
+  border-radius: 20px;
+  max-width: 750px;
+  margin: 0px auto;    
+}
+
+#bio {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* 버튼 네모 박스 */
 #info_box_group {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 37px;
-    flex-wrap: nowrap;
-    max-width: 1000px;
-    margin: 120px auto 60px;
-  
-  }
-  
-  /* each box */
-  .info_box {
-    background-color: #d2f2f6;
-    color: #00a8c6;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 20px 30px;
-    border-radius: 20px;
-    width: 180px;
-    text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 37px;
+  flex-wrap: nowrap;
+  max-width: 1000px;
+  margin: 0px auto;
+}
 
-  }
-  
+.info_box {
+  background-color: #d2f2f6;
+  color: #00a8c6;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  width: 180px;
+  text-align: center;
+}
 
-  .info_box a {
-    text-decoration: none;
-    color: #00434f;
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-  }
+.info_box a {
+  text-decoration: none;
+  display: flex;
+  color: #16BECF;
+  justify-content: center;
+}
 
-  
-  
-  #logo_name {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  #nav_links a {
-    color: #16BECF;
-    text-decoration: none;
-    margin-left: 6px;
-    font-weight: bold;
-    font-size: 20px;
-  
-  }
-  
-  
-  
-  #about_me_contents {
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 0 20px;
+/* 두 개 박스 (Language + Education) */
+#two_box_group {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px auto;
+  max-width: 1000px;
+}
 
-  }
-  
+#language_section,
+#education_section {
+  padding: 20px;
+  text-align: center;
+}
 
-  #language_section,
-  #education_section,
-  #skills_section {
-    margin-bottom: 300px;
-    margin-top: 300px;
-    padding: 0 20px;
-    text-align: center;
-  }
-  
-  #language_title,
-  #education_title,
-  #skills_title {
-    font-size: 37px;
-    color: #16BECF;
-    margin-bottom: 20px;
-  }
-  
-  #language_list,
-  #education_list,
-  #skills_list {
-    list-style: none;
-    padding-left: 0;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-bottom: 20px;
-  }
-  
-  #language_icon,
-  #education_icon {
-    width: 80px;
-    height: auto;
-    margin-top: 10px;
-  }
-  
-  
-  #vertical_divider {
-    width: 100%;
-    height: 1px;
-    background-color: #d2f2f6;
-    margin: 60px auto;
-  }
-  
+#language_title,
+#education_title,
+#skills_title {
+  font-size: 28px;
+  color: #16BECF;
+  margin-bottom: 15px;
+}
+
+#language_list,
+#education_list,
+#skills_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Skills */
+#skills_section {
+  text-align: center;
+  margin: 60px auto;
+}
