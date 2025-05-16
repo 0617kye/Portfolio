@@ -134,7 +134,7 @@ body {
 #two_box_group::before {
   content: "";
   position: absolute;
-  top: 110px;
+  top: 113px;
   bottom: 0px;
   left: 50%;
   width: 2px;
