@@ -19,14 +19,12 @@
       </div>
         <div id="bio_box">
           <p id="bio">
-           <b>Creative and detail-oriented graphic designer</b> with a passion for visual storytelling and character design.  
-          Skilled in digital illustration, branding, and advertising design, with hands-on experience using Adobe Photoshop and Illustrator.  
-          Adaptable and innovative, always seeking new ways to bring ideas to life through expressive and engaging designs.
+           <b>Creative and detail-oriented graphic designer</b> with a passion for visual storytelling and character design. Skilled in digital illustration, branding, and advertising design, with hands-on experience using Adobe Photoshop and Illustrator. Adaptable and innovative, always seeking new ways to bring ideas to life through expressive and engaging designs.
           </p>
         </div>
     </div>
-    <img src="image/Logo.png" height="270px" width="155px">
     <!-- end of red box -->
+     <img src="image/Logo.png" height="270px" width="155px" id="logo-image">
   </div>
       <!-- end of green box -->
 
@@ -44,9 +42,11 @@
     </div>
   </div>
 
-  <!-- 두 개 박스 (Language + Education) -->
-  <div id="two_box_group">
-    <div id="language_section">
+  <!-- (Language + Education) -->
+<div id="two_box_group">
+  
+  <div id="language_section" class="info_with_image">
+    <div class="text_block">
       <h2 id="language_title">Language</h2>
       <ul id="language_list">
         <li>Korean (Native)</li>
@@ -54,8 +54,11 @@
         <li>Japanese (Indeterminate)</li>
       </ul>
     </div>
+    <img src="image/Asset 1.png" width="126px" height="157px" alt="Language logo" class="side_image">
+  </div>
 
-    <div id="education_section">
+  <div id="education_section" class="info_with_image">
+    <div class="text_block">
       <h2 id="education_title">Education</h2>
       <ul id="education_list">
         <li>Cab Calloway School of the Arts</li>
@@ -64,8 +67,13 @@
         <li>Digital Design Major</li>
       </ul>
     </div>
+    <img src="image/Asset 2.png" width="134px" height="150px" alt="Education logo" class="side_image">
   </div>
 
+</div>
+
+  <div id="skills_wrapper">
+<img src="image/Asset 3.png" alt="Computer" width="271px">
   <!-- Skills -->
   <div id="skills_section">
     <h2 id="skills_title">Skills</h2>
@@ -79,63 +87,60 @@
     </ul>
   </div>
 
+<img src="image/Asset 4.png" alt="Idea" width="283px">
+</div>
+
 <!-- Awards -->
 <div id="awards_section">
-  <h2>Awards</h2>
+  <h2 class="section-title">Awards</h2>
   <p>
-      <b>Scholastic Art & Writing Awards</b> - Art Category, Alliance for Young Artists & Writers (2023-2024)<br>
-      <b>2023</b> - Three artworks of Gold keys & One Honorable mention<br>
-      <b>2024</b> - Three artworks of Gold keys & Two Silver keys
+      <br><b>Scholastic Art & Writing Awards</b> - Art Category, Alliance for Young Artists & Writers (2023-2024)<br>
+      <b>2023 - Three artworks of Gold keys & One Honorable mention</b><br>
+      <b>2024 - Three artworks of Gold keys & Two Silver keys </b>
   </p>
-  <img src="images/logo.png" alt="Centered Logo" style="display: block; margin: 20px auto;">
-  <div style="display: flex; justify-content: center; gap: 20px;">
-      <img src="images/artwork1.png" alt="Artwork 1" width="150px">
-      <img src="images/artwork2.png" alt="Artwork 2" width="150px">
-      <img src="images/artwork3.png" alt="Artwork 3" width="150px">
-      <img src="images/artwork4.png" alt="Artwork 4" width="150px">
+  <img src="image/Asset 5.png" alt="Gold keys and Silver Keys" width="590px" height="94px" class="awards-logo">
+  <img src="image/Asset 6.png" width="860px" alt="Award-winning artwork"/>
+
+  <div class="awards-gallery">
   </div>
 </div>
 
 <!-- Community Projects -->
 <div id="community_projects_section">
-  <h2>Community Projects</h2>
+  <h2 class="section-title">Community Projects</h2>
   <p>
-      Vacation Bible School Volunteer: Delaware Korean United Methodist Church | June 18-22, 2024<br>
-      <b>Designed and created stage props for the summer program</b><br>
-      Assisted in leading children's art activities and managing classroom
-  </p>
-  <img src="images/logo.png" alt="Centered Logo" style="display: block; margin: 20px auto;">
+      <br><b>Vacation Bible School Volunteer: Delaware Korean United Methodist Church | June 18-22, 2024</b><br>
+      <b>Designed and created stage props for the summer program</b> Assisted in leading children's art activities and managing classroom.</p>
+  <img src="image/Asset 7.png" alt="Centered Logo" style="display: block; margin: 20px auto;" width="228px" height="203px">
 </div>
 
 <!-- Extracurricular -->
 <div id="extracurricular_section">
-  <h2>Extracurricular</h2>
+  <h2 class="section-title">Extracurricular</h2>
   <p>
-      <b>Character Community Project - Masquerade February 2025</b> (12-day online project, hosted on Naver BAND)<br>
-      Participated in an interactive storytelling and illustration project with 53 artists and writers.<br>
-      Developed and submitted an original character, contributing to collaborative worldbuilding and event-driven narratives.<br>
-      Engaged in daily interactions, co-created visual scenes, and helped shape a collective story arc leading to a unified ending.
+      <br><b>Character Community Project - Masquerade February 2025 (12-day online project, hosted on Naver BAND)</b><br>
+      <br> Participated in an interactive storytelling and illustration project with 53 artists and writers. Developed and submitted an original character, contributing to collaborative worldbuilding and event-driven narratives. Engaged in daily interactions, co-created visual scenes, and helped shape a collective story arc leading to a unified ending.
   </p>
-  <img src="images/logo.png" alt="Centered Logo" style="display: block; margin: 20px auto;">
+  <img src="image/Asset 8.png" alt="Centered Logo" style="display: block; margin: 20px auto;" width="685px" height="210px">
 </div>
 
 <!-- Artwork -->
 <div id="artwork_section">
-  <h2>Artwork</h2>
-  <div style="display: flex; justify-content: center; gap: 20px;">
-      <img src="images/artwork5.png" alt="Artwork 5" width="180px">
-      <img src="images/artwork6.png" alt="Artwork 6" width="180px">
-      <img src="images/artwork7.png" alt="Artwork 7" width="180px">
+  <h2 class="section-title">Artwork</h2>
+  <div class="artwork-gallery">
+      <img src="image/Asset 10.png" alt="Artwork 5" width="223px">
+      <img src="image/Asset 11.png" alt="Artwork 6" width="272px" height="139px" class="artwork-middle">
+      <img src="image/Asset 9.png" alt="Artwork 7" width="223px">
   </div>
 </div>
 
 <!-- Contact Information -->
 <div id="contact_section">
-  <h2>Contact Information</h2>
+  <h2 class="section-title">Contact Information</h2>
   <p>
-      <img src="images/phone_icon.png" alt="Phone" width="16px"> (302)-610-1347<br>
-      <img src="images/email_icon.png" alt="Email" width="16px"> s.yooleun.kim@redclay.k12.de.us<br>
-      <img src="images/home_icon.png" alt="Home" width="16px"> Hockessin, 19707, 12 carolyn ct.
+      <br><img src="image/Asset 13.png" alt="Phone" width="16px"> (302)-610-1347<br>
+      <img src="image/Asset 14.png" alt="Email" width="16px"> s.yooleun.kim@redclay.k12.de.us<br>
+      <img src="image/Asset 15.png" alt="Home" width="16px"> Hockessin, 19707, 12 carolyn ct.
   </p>
 </div>
 

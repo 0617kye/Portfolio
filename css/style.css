@@ -14,14 +14,14 @@ body {
   height: auto;
 }
 
-/* 말풍선 영역 */
 #green_box {
+  position: relative; 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; 
   width: 940px;
   margin-top: 60px;
-  border: solid 1px green;
+  border: solid 1px rgb(255, 255, 255);
 }
 
 #red_box {
@@ -30,59 +30,55 @@ body {
   align-items: center;
   flex-direction: column;
   width: 690px;
-  border: solid 1px red;
+  border: solid 1px rgb(255, 255, 255);
 
 }
 
 #blue_box {
-  background-color: #d2f2f6;
-  padding: 50px 30px;
-  border-radius: 40px;
-  text-align: center;
-  width: 590px;
-  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
-
-/* #header_box {
-  background-color: #d2f2f6;
-  padding: 60px 40px;
-  border-radius: 40px;
-  text-align: center;
-  border: solid 1px black;
-
-} */
-
 #about_me {
   background-color: #d2f2f6;
-  max-width: 690px;
+  width: 690px;
   height: 195px;
-  margin: 0 auto;
-  border: solid 1px black;
+  margin: 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
 
 }
 
 .title-top {
   font-size: 25px;
   color: #008796;
-  margin: 8px;
-  font-weight: 10;
+  font-weight: 100;
+  margin: 0 0 5px 0;
+  
+}
+
+#logo-image {
+    position: relative;
+    top: 0px; 
+    left: 30px;   
 }
 
 #about_me h1 {
   font-size: 64px;
   font-weight: bold;
   color: #16BECF;
-  margin: 14px 0 20px;
+  margin: 0;  
 }
 
 #bio_box {
-  background-color: white;
-  padding: 37px;
-  border-radius: 20px;
-  max-width: 750px;
-  margin: 0px auto;    
+  
+  margin: 37px auto;
+  max-width: 690px;
 }
 
 #bio {
@@ -91,11 +87,11 @@ body {
   color: #333;
   line-height: 1.6;
   max-width: 750px;
-  margin: 20px;
-  text-align: center;
+  margin: 0;
+  text-align: left;
 }
 
-/* 버튼 네모 박스 */
+
 #info_box_group {
   display: flex;
   justify-content: space-evenly;
@@ -114,6 +110,7 @@ body {
   border-radius: 20px;
   width: 180px;
   text-align: center;
+
 }
 
 .info_box a {
@@ -123,13 +120,40 @@ body {
   justify-content: center;
 }
 
-/* 두 개 박스 (Language + Education) */
+/* two box (Language + Education) */
 #two_box_group {
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 60px auto;
+  justify-content: space-between;    
+  gap: 145px;                      
+  margin: 60px auto 100px auto;
   max-width: 1000px;
+  position: relative;
+}
+
+
+#two_box_group::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #d2f2f6;
+}
+
+.info_with_image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.side_image {
+  margin-left: 75px;
+}
+
+.text_block {
+  padding-left: 0;
+  margin-left: 0;
 }
 
 #language_section,
@@ -152,7 +176,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
 }
 
@@ -161,3 +185,67 @@ body {
   text-align: center;
   margin: 60px auto;
 }
+
+#skills_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118px;
+}
+
+
+.awards-logo {
+  display: block;
+  margin: 70px auto;
+}
+
+.awards-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.artwork-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+.artwork-middle {
+  margin-top: 90px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: #16BECF; 
+  margin-bottom: 15px;
+  
+}
+
+
+#awards_section p,
+#community_projects_section p,
+#extracurricular_section p,
+#contact_section p {
+  font-size: 14px;
+  line-height: 1.8;
+  max-width: 750px;
+  margin: 0 auto;
+  padding-left: 58px;
+  text-align: left;
+}
+
+#awards_section,
+#community_projects_section,
+#extracurricular_section,
+#artwork_section,
+#contact_section {
+  margin-top: 200px;
+}
+
+ #contact_section {
+  margin-bottom: 400px;
+}
+
