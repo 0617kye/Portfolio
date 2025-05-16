@@ -134,10 +134,11 @@ body {
 #two_box_group::before {
   content: "";
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 110px;
+  bottom: 0px;
   left: 50%;
   width: 2px;
+  height: 216px;
   background-color: #d2f2f6;
 }
 
@@ -160,7 +161,9 @@ body {
 #education_section {
   padding: 20px;
   text-align: center;
+  margin-top: 80px;
 }
+
 
 #language_title,
 #education_title,
