@@ -252,3 +252,30 @@ body {
  #contact_section {
   margin-bottom: 400px;
 }
+
+#contact_section p {
+  margin-top: 56px;
+}
+
+.lifted-text {
+  display: inline-block;
+  position: relative;
+  top: -7px; 
+}
+
+#buttonexample {
+
+  width: 200px;
+  height: 50px;
+  background-color: #16BECF;
+  color: rgb(255, 255, 255);
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+#buttonexample:hover {
+transition-property: background-color, color;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
