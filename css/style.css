@@ -118,6 +118,16 @@ body {
   display: flex;
   color: #16BECF;
   justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.info_box:hover {
+  background-color: #16BECF;
+  transition: background-color 0.2s ease;
+}
+
+.info_box:hover a {
+  color: white;
 }
 
 /* two box (Language + Education) */
@@ -125,7 +135,7 @@ body {
   display: flex;
   justify-content: space-between;    
   gap: 145px;                      
-  margin: 60px auto 100px auto;
+  margin: 0px auto 100px auto;
   max-width: 1000px;
   position: relative;
 }
@@ -246,11 +256,11 @@ body {
 #extracurricular_section,
 #artwork_section,
 #contact_section {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
  #contact_section {
-  margin-bottom: 400px;
+  margin-bottom: 200px;
 }
 
 #contact_section p {
@@ -259,23 +269,8 @@ body {
 
 .lifted-text {
   display: inline-block;
-  position: relative;
-  top: -7px; 
-}
-
-#buttonexample {
-
-  width: 200px;
-  height: 50px;
-  background-color: #16BECF;
-  color: rgb(255, 255, 255);
-  transition-property: color;
-  transition-duration: 0.5s;
-}
-
-#buttonexample:hover {
-transition-property: background-color, color;
-  background-color: #000000;
-  color: white;
-  cursor: pointer;
+  vertical-align: top;   
+  margin-top: 2px;    
+  font-size: 14px;
+  line-height: 1.6;
 }
