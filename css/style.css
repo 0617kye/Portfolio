@@ -279,3 +279,208 @@ body {
   font-size: 14px;
   line-height: 1.6;
 }
+
+
+@media (max-width: 768px) {
+  
+  #main_container,
+  #blue_box,
+  #two_box_group,
+  #skills_section,
+  .awards-gallery {
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  #green_box {
+    display: flex;         
+    flex-direction: column;
+    align-items: center;   
+    gap: 16px;      
+    padding: 0 16px;    
+    width: 100% !important; 
+  }
+
+  #red_box {
+    width: 90% !important; 
+    max-width: none !important;
+  }
+  
+  #bio_box,
+  #bio {
+    max-width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  /* About Me + logo */
+  #about_me_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #about_me {
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    height: 110px;
+    text-align: center;
+  }
+
+  #about_me h1 {
+    font-size: 45px;
+    margin: 0;
+  line-height: 1.1;
+  }
+
+  .title-top {
+    font-size: 20px;
+  }
+
+  #logo-image {
+    max-width: 80px;
+    height: auto;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    left: 0px;
+  }
+
+  
+  #bio {
+    padding: 0 10px;
+    font-size: 13px;
+    
+  }
+
+  /* 5개 button */
+  #info_box_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .info_box {
+    width: 80px !important; 
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+
+  #language_section {
+    margin-top: 40px; 
+  }
+   #education_section{
+    margin-bottom: 40px; 
+    margin-top: -100px;
+  }
+
+  /* delete vertical line */
+  #two_box_group::before {
+    display: none;
+  }
+
+  /* Skills */
+  #skills_wrapper {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 95px;
+  }
+
+  .asset3 {
+    max-width: 150px;
+    height: auto; 
+  }
+  
+  .asset4 {
+    max-width: 150px;
+    height: auto; 
+    margin-top: 30px;
+    
+  }
+  #awards_section p {
+    max-width: 90vw;          
+    margin: 0 auto;         
+    padding: 0 10px;          
+    box-sizing: border-box; 
+    word-wrap: break-word;  
+    white-space: normal;  
+    text-align: left;  
+  }  
+
+  .awards-logo {
+  max-width: 500px;
+  height: auto; 
+  }
+  
+  .awards-artwork {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+    height: auto;
+  }
+
+  #community_projects_section p {
+    text-align: center;
+    max-width: 90vw;   
+    margin: 0 auto;   
+    padding: 0 10px; 
+    box-sizing: border-box; 
+    word-wrap: break-word;
+    white-space: normal; 
+  }
+
+  #extracurricular_section p {
+    text-align: center;
+    max-width: 90vw;  
+    margin: 0 auto;   
+    padding: 0 10px;        
+    box-sizing: border-box; 
+    word-wrap: break-word;   
+    white-space: normal; 
+  }
+
+  .palette-logo {
+    max-width: 150px;
+    height: auto; 
+  }
+
+  .people-logo {
+    max-width: 400px;
+    height: auto; 
+  }
+
+  .artwork-gallery {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    gap: 30px;
+  }
+  
+  .artwork-gallery img {
+    max-width: 150px;
+    height: auto; 
+  }
+
+  #artwork_section > .section-title {
+    margin-bottom: 56px;
+  }
+
+  #contact_section p {
+    padding: 0 20px;
+  }
+
+  
+  h1 {
+    font-size: 24px;
+  }
+}
