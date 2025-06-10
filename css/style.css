@@ -360,7 +360,7 @@ body {
     
   }
 
-  /* 5개 button */
+  /* 5 button */
   #info_box_group {
     display: flex;
     flex-wrap: wrap;
@@ -485,6 +485,10 @@ body {
   }
 }
 
+
+/* 480px start */
+
+
 @media (max-width: 480px) {
   
   #main_container, #bio_box {
@@ -493,7 +497,7 @@ body {
   }
 
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   #bio {
@@ -508,7 +512,7 @@ body {
 
   .info_box {
     width: 60px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
 
@@ -524,22 +528,22 @@ body {
 
 
   .palette-logo {
-    max-width: 120px; 
+    max-width: 100px; 
     height: auto;
   }
 
   .people-logo {
-    max-width: 320px; 
+    max-width: 300px; 
     height: auto;
   }
 
   .awards-logo {
-    max-width: 320px; 
+    max-width: 300px; 
     height: auto;
   }
 
   .awards-artwork {
-    max-width: 336px; 
+    max-width: 36px; 
     height: auto;
   }
 
