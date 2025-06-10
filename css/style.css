@@ -484,3 +484,79 @@ body {
     font-size: 24px;
   }
 }
+
+
+
+@media (max-width: 480px) {
+  /* 전체 컨테이너 크기 조정 */
+  #main_container, #bio_box {
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  /* 텍스트 크기 조정 */
+  body {
+    font-size: 14px;
+  }
+
+  #bio {
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  #about_me h1 {
+    font-size: 36px;
+  }
+
+  .info_box {
+    width: 60px;
+    font-size: 12px;
+  }
+
+  /* 반응형 네비게이션 */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu-item {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* 이미지 크기 조정 - 기존 비율 유지 */
+  .palette-logo {
+    max-width: 120px; /* 기존 150px → 80% */
+    height: auto;
+  }
+
+  .people-logo {
+    max-width: 320px; /* 기존 400px → 80% */
+    height: auto;
+  }
+
+  .awards-logo {
+    max-width: 320px; /* 기존 400px → 80% */
+    height: auto;
+  }
+
+  .awards-artwork {
+    max-width: 336px; /* 기존 비율 유지 */
+    height: auto;
+  }
+
+  /* 버튼 정렬 */
+  #info_box_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* 추가적인 가독성 향상 */
+  #contact_section p {
+    padding: 0 10px;
+    text-align: center;
+  }
+}
