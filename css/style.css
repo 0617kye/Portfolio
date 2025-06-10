@@ -342,7 +342,7 @@ body {
   }
 
   .title-top {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   #logo-image {
@@ -485,26 +485,19 @@ body {
   }
 }
 
-
-
 @media (max-width: 480px) {
-
+  
   #main_container, #bio_box {
     padding: 0 10px;
     width: 100%;
   }
 
-
   body {
     font-size: 14px;
   }
 
-  .title-top {
-    font-size: 14px;
-  }
-
   #bio {
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px;
     text-align: center;
   }
@@ -515,8 +508,9 @@ body {
 
   .info_box {
     width: 60px;
-    font-size: 10px;
+    font-size: 12px;
   }
+
 
   nav {
     flex-direction: column;
@@ -524,10 +518,11 @@ body {
   }
 
   .menu-item {
-    font-size: 12px;
+    font-size: 14px;
     padding: 8px;
   }
- 
+
+
   .palette-logo {
     max-width: 120px; 
     height: auto;
@@ -539,12 +534,12 @@ body {
   }
 
   .awards-logo {
-    max-width: 320px;
+    max-width: 320px; 
     height: auto;
   }
 
   .awards-artwork {
-    max-width: 336px;
+    max-width: 336px; 
     height: auto;
   }
 
@@ -562,3 +557,4 @@ body {
     text-align: center;
   }
 }
+
